@@ -1,0 +1,88 @@
+.header {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #aaa;
+	font-family:arial; 
+}
+#superHeader {
+    text-align: center;
+}
+#smallHeader {
+    text-align: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.columnHead {
+    float: left;
+	font-family:arial; 
+}
+#columnLeft {
+    width: 15.33%;
+    padding: 10px;
+    height: 80vh;
+	background-image: url("Grey.jpg");
+	border-right: 2px solid #aaa;
+}
+#columnCentr {
+    width: 64.33%;
+    padding: 10px;
+    height: 80vh;
+	background-color:#eee;
+}
+.columnInCentr {
+    width: 100%;
+    padding-left: 150px;
+	padding-top: 10px;
+    height: 125px;
+	border: 2px solid #aaa;
+	background-color:#ddd;
+}
+#columnInCentr {
+    width: 100%;
+    padding-left: 150px;
+	padding-top: 10px;
+    height: 125px;
+	border: 2px solid #aaa;
+	background-color:#ddd;
+}
+#columnRight {
+    width: 20.33%;
+    padding: 10px;
+    height: 80vh; 
+	background-image: url("Grey.jpg");
+	border-left: 2px solid #aaa;
+}
+.footer {
+	clear:both;
+	border-top: 2px solid #aaa;
+	font-family:arial; 
+}
+.row: after {
+    display: table;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
+.dataTable {
+	text-align: center;
+	width: 100%;
+}
+#tdDataTable {
+	border-bottom: 2px solid #aaa;
+}
+.blockFile {
+	width: 100%;
+	padding: 5px;
+	padding-right: 30px;
+    height: 110px;
+	border: 2px solid #aaa;
+	background-color:#ddd;
+	margin-bottom: 10px;
+}
+#input{
+	float: left;
+	width: 100%;
+	padding-bottom: 5px;
+}
